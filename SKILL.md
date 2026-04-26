@@ -86,6 +86,15 @@ contract ConfidentialCounter is ZamaEthereumConfig {
 }
 ```
 
+## Quick Start by Role
+
+| Role | Building | Start here |
+|------|----------|-----------|
+| Solidity / contract dev | Confidential contract logic (FHE ops, access control) | `references/encrypted-types.md` → `references/fhe-operations.md` → `references/access-control.md` |
+| Frontend / Web3 dev | Decryption UI, input encryption in the browser | `references/frontend-integration.md` → `references/decryption-flows.md` |
+| Full-stack dApp dev | Complete FHE-enabled application | `references/fhevm-overview.md`, then the table below |
+| DeFi / token dev | Confidential ERC-7984 token | `references/erc7984.md` → `templates/confidential-erc7984.sol` |
+
 ## Reference Files
 
 | When you need to… | Load |
