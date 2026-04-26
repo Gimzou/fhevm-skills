@@ -38,7 +38,7 @@ Targets `@fhevm/solidity@0.11.1` (npm stable). When `0.12.0` lands on npm, a `re
 | Agent | Status |
 |-------|--------|
 | Claude Code | Verified (Zama Developer Program S2 validation) |
-| Cursor | should work per skills.sh mapping but unverified |
+| Cursor | Verified (installer path confirmed: `.agents/skills/fhevm/`) |
 
 Other skills.sh-supported agents (Windsurf, Gemini CLI, Roo, Kilo, …) should resolve via `npx skills add` per the [agent-to-directory mapping](https://github.com/vercel-labs/skills#agents), but have not been explicitly tested.
 
